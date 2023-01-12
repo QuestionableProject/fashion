@@ -81,12 +81,24 @@ main {
 }
 .priview__text {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
+	padding: 0 100px;
+	flex-direction: column;
     justify-content: center;
+	gap: 50px;
+}
+.priview__text p:nth-child(1){
+	font-size: 50px;
+	font-weight: 600;
+}
+.priview__blockBtn {
+	display: flex;
+	align-items: center;
+	gap: 30px;
 }
 .img img {
-	width: 80%;
-	height: 80%;
+	width: 75%;
+	height: 85%;
 }
 
 /* partners */
