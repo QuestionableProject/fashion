@@ -61,6 +61,7 @@ main {
 .partners {
 	display: flex;
 	justify-content: space-between;
+    align-items: center;
 	height: 150px;
 	padding: 0 150px;
 	margin: 0 -100px;
